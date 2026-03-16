@@ -9,7 +9,7 @@
 >
 > ---
 >
-> ## 📋 Table of Contents
+> ## Table of Contents
 >
 > - [Overview](#overview)
 > - - [Features](#features)
@@ -23,11 +23,12 @@
 >                
 >                 - ---
 >
-> ## 🌐 Overview
+> ## Overview
 >
 > The **Sovereign V1 Agent** is an intelligent automation framework designed to guide institutional Web3 platforms through a structured V1 transition. It analyzes platform readiness, enforces compliance standards, and generates actionable transition roadmaps.
 >
 > Built on the **Neural Capital OS** architecture, it integrates:
+>
 > - **EIP-2981** on-chain royalty enforcement
 > - - **Post-quantum cryptography** (ZK-SNARKs, Crystals-Kyber, Dilithium3)
 >   - - **HAC-Grade Provenance** standards for institutional-grade asset tracking
@@ -35,21 +36,21 @@
 >      
 >       - ---
 >
-> ## ✨ Features
+> ## Features
 >
 > | Feature | Description |
 > |---|---|
-> | 🔐 **EIP-2981 Enforcement** | Automated royalty standard compliance checks and contract deployment |
-> | 🛡️ **Post-Quantum Security** | Integration with ZK-SNARKs, Crystals-Kyber, and Dilithium3 algorithms |
-> | 📜 **HAC Compliance** | HAC-Grade Provenance verification for institutional asset management |
-> | ⚡ **VOLTS Token** | ERC-20 token with minting caps and staking reward mechanics |
-> | 📊 **Readiness Scoring** | Automated V1 readiness scoring (0–100) across all compliance dimensions |
-> | 🗺️ **Transition Roadmap** | Auto-generated prioritized transition plans with time estimates |
-> | 🤖 **GitHub Actions CI** | Automated issue analysis and workflow integration |
+> | **EIP-2981 Enforcement** | Automated royalty standard compliance checks and contract deployment |
+> | **Post-Quantum Security** | Integration with ZK-SNARKs, Crystals-Kyber, and Dilithium3 algorithms |
+> | **HAC Compliance** | HAC-Grade Provenance verification for institutional asset management |
+> | **VOLTS Token** | ERC-20 token with minting caps and staking reward mechanics |
+> | **Readiness Scoring** | Automated V1 readiness scoring (0-100) across all compliance dimensions |
+> | **Transition Roadmap** | Auto-generated prioritized transition plans with time estimates |
+> | **GitHub Actions CI** | Automated issue analysis and workflow integration |
 >
 > ---
 >
-> ## 🏗️ Architecture
+> ## Architecture
 >
 > ```
 > sovereign-v1-agent/
@@ -60,14 +61,14 @@
 > ├── src/
 > │   └── update_agent.py     # Core Sovereign V1 Agent logic
 > ├── README.md
-> ├── requirements.txt
 > ├── CONTRIBUTING.md
-> └── LICENSE
+> ├── LICENSE
+> └── requirements.txt
 > ```
 >
 > ---
 >
-> ## 🚀 Installation
+> ## Installation
 >
 > ### Prerequisites
 >
@@ -96,7 +97,7 @@
 >
 > ---
 >
-> ## 💻 Usage
+> ## Usage
 >
 > ### Basic Platform Analysis
 >
@@ -134,7 +135,7 @@
 >
 > ---
 >
-> ## 📄 Smart Contracts
+> ## Smart Contracts
 >
 > ### VOLTS Token (`contracts/VOLTS.sol`)
 >
@@ -153,7 +154,7 @@
 >
 > ---
 >
-> ## ⚙️ Configuration
+> ## Configuration
 >
 > Create a `.env` file in the project root:
 >
@@ -172,11 +173,11 @@
 > AGENT_LOG_LEVEL=INFO
 > ```
 >
-> > ⚠️ **Never commit your `.env` file or private keys to version control.**
+> > **Warning**: Never commit your `.env` file or private keys to version control.
 > >
 > > ---
 > >
-> > ## 🤝 Contributing
+> > ## Contributing
 > >
 > > Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on how to get involved.
 > >
@@ -188,16 +189,16 @@
 > >            
 > >             6. ---
 > >            
-> >             7. ## 📜 License
+> >             7. ## License
 > >            
 > >             8. This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 > >
 > > ---
 > >
-> > ## 👤 Author
+> > ## Author
 > >
 > > **Brandon Hines** ([@bhineswaveformer6](https://github.com/bhineswaveformer6))
 > >
 > > ---
 > >
-> > *Built with ❤️ for the decentralized future.*
+> > *Built with love for the decentralized future.*
